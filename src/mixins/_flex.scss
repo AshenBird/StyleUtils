@@ -1,0 +1,21 @@
+
+@mixin flex($dir:"row") {
+  display: flex;
+  @if $dir=="col" {
+   flex-direction: column; 
+  }
+  @if $dir=="row" {
+    flex-direction: row;
+  }
+}
+
+@mixin flex-center($dir:"row", $mode:"main") {
+  @include flex($dir);
+
+  @if $mode=="main" $mode=="both" {
+    justify-content: center;
+  }
+  @if $mode=="minor" $mode=="both"{
+    align-items: center;
+  }
+}

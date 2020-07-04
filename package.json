@@ -1,0 +1,9 @@
+{
+  "name": "StyleUtils",
+  "version": "0.0.1",
+  "main": "src/index.scss",
+  "repository": "https://github.com/mcTree/StyleUtils.git",
+  "author": "McSwift <develop@mcswift.pro>",
+  "license": "MIT",
+  "dependencies": {}
+}
