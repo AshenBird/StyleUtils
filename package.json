@@ -5,5 +5,7 @@
   "repository": "https://github.com/mcTree/StyleUtils.git",
   "author": "McSwift <develop@mcswift.pro>",
   "license": "MIT",
-  "dependencies": {}
+  "publishConfig": {
+    "access": "public"
+  }
 }

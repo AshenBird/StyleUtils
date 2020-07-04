@@ -1,3 +1,4 @@
-.clearboth{
-  @include clear;
+.clearboth,
+.clearfix{
+  @include clearfix;
 }
