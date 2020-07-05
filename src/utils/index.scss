@@ -1,4 +1,36 @@
+@import "../mixins";
 .clearboth,
 .clearfix{
   @include clearfix;
 }
+
+.flex-row{
+  @include flex("row");
+}
+
+.flex-center-row{
+  @include flex-center("row", "main");
+}
+
+.flex-center-col{
+  @include flex-center("col", "main");
+}
+
+.flex-center{
+  @include flex-center("row", "both")
+}
+
+@media print {
+  .noprint {
+    display: none;
+  }
+}
+
+.no-white-space {
+  white-space: nowrap;
+}
+
+.link {
+  cursor: pointer;
+}
+
